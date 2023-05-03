@@ -1,0 +1,73 @@
+{
+  "id": "9c9d1151-9b99-4194-8be7-7f0261276a8c",
+  "version": "2.0",
+  "name": "ЛР2",
+  "url": "https://oz.by",
+  "tests": [{
+    "id": "79266fbe-36be-419c-9790-ec8f49d06aca",
+    "name": "1",
+    "commands": [{
+      "id": "6afc5fef-02cf-45b2-a6ca-b6988c02acbb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f5ac20e-2b35-469b-9b5a-7a775824e88e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1bcecd-17bd-4549-ad94-ddbd84d59e5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "Телефон"
+    }, {
+      "id": "8e2896c3-32ae-4f06-a5fd-8f2584643f10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-panel__search__btn",
+      "targets": [
+        ["css=.top-panel__search__btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1c3d1d0-7aab-43c8-9bb9-0d6b20d413c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//div[@id='top-page']/div/div[2]/div/ul/li[3]/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Корзина')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e8fbfb3-a5ee-4f6b-a9bd-e8c42e0b5943",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://oz.by/"],
+  "plugins": []
+}

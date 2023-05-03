@@ -1,0 +1,226 @@
+{
+  "id": "9c9d1151-9b99-4194-8be7-7f0261276a8c",
+  "version": "2.0",
+  "name": "ЛР2",
+  "url": "https://oz.by",
+  "tests": [{
+    "id": "79266fbe-36be-419c-9790-ec8f49d06aca",
+    "name": "1",
+    "commands": [{
+      "id": "6afc5fef-02cf-45b2-a6ca-b6988c02acbb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f5ac20e-2b35-469b-9b5a-7a775824e88e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1bcecd-17bd-4549-ad94-ddbd84d59e5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "Телефон"
+    }, {
+      "id": "8e2896c3-32ae-4f06-a5fd-8f2584643f10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-panel__search__btn",
+      "targets": [
+        ["css=.top-panel__search__btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/span[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1c3d1d0-7aab-43c8-9bb9-0d6b20d413c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//div[@id='top-page']/div/div[2]/div/ul/li[3]/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Корзина')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "514f3eae-5e3a-451d-a715-b0575a221b5b",
+    "name": "2",
+    "commands": [{
+      "id": "d7f2d34f-aef2-415d-94ed-87e8d16a41e7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45b76d0d-379c-4282-b121-39756203609e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64f3c86e-e518-472f-bad4-b25a31df213f",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80f6d97c-c2d0-4bd5-a9c0-1d979026aab0",
+      "comment": "",
+      "command": "type",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "Брошь"
+    }, {
+      "id": "633ed867-df14-4cb9-8426-2aed6d9212d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.viewer-type-card__li:nth-child(2) .item-type-card__inner > .needsclick",
+      "targets": [
+        ["css=.viewer-type-card__li:nth-child(2) .item-type-card__inner > .needsclick", "css:finder"],
+        ["xpath=//ul[@id='goods-table']/li[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/brooches/more101148627.html?sbtoken=6d434e48143a02dbe34eb7fff40285aa')]", "xpath:href"],
+        ["xpath=//li[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970e9f19-cfcd-4640-abd8-b1db080a22d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a2267f5-6c3f-45df-b254-d0c8d48eb2cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "Рулетка"
+    }, {
+      "id": "74ed8c88-2f10-4b91-ba90-9aac549ea5be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-panel__search__btn__item",
+      "targets": [
+        ["css=.top-panel__search__btn__item", "css:finder"],
+        ["xpath=//form[@id='search-top']/div/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79ad782e-68cc-48d2-9732-47d426cee355",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.i-button__text:nth-child(2)",
+      "targets": [
+        ["css=.i-button__text:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='top-page']/div[3]/div/div/div/div[2]/div[3]/div/div/div[2]/div/div/a/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div/div/a/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2314e6d2-7c74-46b2-8cfe-61efa3cbea14",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.i-button__text:nth-child(2)",
+      "targets": [
+        ["css=.i-button__text:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='top-page']/div[3]/div/div/div/div[2]/div[3]/div/div/div[2]/div/div/a/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div/div/a/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d0d5809-f538-499d-b315-bfa5d32438f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//div[@id='top-page']/div/div[2]/div/ul/li[3]/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Корзина')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88b65559-e00d-480c-87f6-b029350902a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2",
+      "targets": [
+        ["css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2", "css:finder"],
+        ["xpath=//div[@id='loginPopup']/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a78ee83-fe01-4361-8866-1c628402236f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2",
+      "targets": [
+        ["css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2", "css:finder"],
+        ["xpath=//div[@id='loginPopup']/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e8fbfb3-a5ee-4f6b-a9bd-e8c42e0b5943",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://oz.by/"],
+  "plugins": []
+}

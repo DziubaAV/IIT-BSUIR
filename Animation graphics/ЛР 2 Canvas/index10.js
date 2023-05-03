@@ -1,0 +1,35 @@
+let canvas10 = document.getElementById("canvas10"); 
+let context10 = canvas10.getContext('2d');
+
+
+context10.beginPath(); 
+context10.moveTo(20,20); 
+context10.lineTo(20,180); 
+context10.lineWidth=2; 
+context10.strokeStyle='grey'; 
+context10.stroke(); 
+context10.moveTo(180,20); 
+context10.lineTo(180,180); 
+context10.stroke(); 
+context10.closePath(); 
+context10.beginPath(); 
+context10.moveTo(20,30); 
+context10.lineWidth=10; 
+context10.lineCap="butt"; 
+context10.lineTo(180,30); 
+context10.stroke(); 
+context10.closePath(); 
+context10.beginPath(); 
+context10.moveTo(20,80); 
+context10.lineWidth=10; context10.strokeStyle="green"; 
+context10.lineCap="round"; 
+context10.lineTo(180,80); 
+context10.stroke(); 
+context10.closePath(); 
+context10.beginPath(); 
+context10.moveTo(20,130); 
+context10.lineWidth=10;  
+context10.lineCap="square"; 
+context10.lineTo(180,130); 
+context10.stroke(); 
+context10.closePath(); 

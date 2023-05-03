@@ -1,0 +1,100 @@
+{
+  "id": "b5d370ee-40d6-4807-891f-b288864d8033",
+  "version": "2.0",
+  "name": "ЛР2",
+  "url": "https://oz.by",
+  "tests": [{
+    "id": "810d97d6-8eba-477d-afe5-7c0efc72b29c",
+    "name": "3",
+    "commands": [{
+      "id": "ff80c070-c406-4cd4-8dea-984b38fcb16b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ca1b5c7-54ea-4875-850a-f93934db4be8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "325eea2f-3c22-4963-98b8-47e92190a1a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d57da0-af00-4d46-af77-036635f0ad25",
+      "comment": "",
+      "command": "type",
+      "target": "id=top-s",
+      "targets": [
+        ["id=top-s", "id"],
+        ["name=q", "name"],
+        ["css=#top-s", "css:finder"],
+        ["xpath=//input[@id='top-s']", "xpath:attributes"],
+        ["xpath=//form[@id='search-top']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "конфеты"
+    }, {
+      "id": "7be67fc5-ae71-4d9f-b51e-b53e144d3b9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-panel__search__btn__item",
+      "targets": [
+        ["css=.top-panel__search__btn__item", "css:finder"],
+        ["xpath=//form[@id='search-top']/div/span[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b11c5a4a-3736-46d9-a2f2-25511f642039",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//div[@id='top-page']/div/div[2]/div/ul/li[3]/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Корзина')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd1281de-f8b4-4ac2-a6fe-23efaa4f9a23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2",
+      "targets": [
+        ["css=.i-popup__group:nth-child(1) > .i-popup__close > .i-icon-2", "css:finder"],
+        ["xpath=//div[@id='loginPopup']/div/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75b125e7-f2fe-4659-8d3c-afd9c4380a9a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e1fd7311-47f4-4682-a2b4-ec5e2bfa8be9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["810d97d6-8eba-477d-afe5-7c0efc72b29c"]
+  }],
+  "urls": ["https://oz.by/"],
+  "plugins": []
+}
