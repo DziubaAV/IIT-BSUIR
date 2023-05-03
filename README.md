@@ -1,1 +1,1 @@
-# IIT-BSUIR
+Hi there, I'm Artsiomi Dziuba, a computer science student from Belarus. In this repository, I have saved all the projects that I completed during my studies at BSUIR to obtain a second higher education in the field of web development.
